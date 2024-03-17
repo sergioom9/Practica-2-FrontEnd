@@ -1,0 +1,238 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}.solicitar{
+  width: 100px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+}.guardar{
+  width: 100px;
+  margin: 3px;
+  height: 40px;
+  background-color: white;
+  color: blue;
+  border-color: blue;
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 10px;
+}.Encabezado {
+  position: sticky;
+  top: 0;
+  background-color: #f9f9f9; /* Color de fondo opcional */
+  padding: 10px; /* Ajusta el padding según sea necesario */
+  z-index: 1; /* Asegura que esté por encima del contenido de la barra lateral */
+}
+.largetext{
+  border: solid 2px;
+  border-color:rgb(252, 241, 241);
+  padding:5px;
+}
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}.container{
+  background-color: white;
+  display: flex;
+  max-height: 100vh;
+  margin-bottom: 10px;
+}.Encabezado{
+  background-color: blue;
+  color: white;
+  font-size: x-small;
+  width: 400px;
+  padding-left: 7px;
+  padding-bottom: 4px;
+}.selected{
+  background-color: skyblue;
+}.lista{
+  font-size: xx-small;
+  overflow: auto;
+  border:5px solid;
+  border-color: #6b7280;
+  width: 400px; 
+  max-height: 100vh;
+}
+.my-6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}.sidebar{
+  
+}.sidebar ul{
+  list-style-type: none;
+  padding: 0;
+}.sidebar ul li{
+  margin-bottom: 1px;
+
+}.solicitud{
+  color: green;
+}.texto{
+  display: flex; 
+  flex-direction: column;
+}.imagen1{
+  width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: 50px; /* Ajusta la altura de la imagen según sea necesario */
+  margin-right: 5px;;
+  
+}.imagen2{
+  width: 15px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: 15px; /* Ajusta la altura de la imagen según sea necesario */
+  margin: 5px;;
+}.contactos{
+  display: flex; /* Usa flexbox para controlar el diseño */
+  align-items: center;
+}.filas{
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: gray;
+  display:flex;
+}.info{
+  flex: 1;
+  padding: 20px; 
+  max-height: 100vh;
+  margin:5px;
+  overflow: auto;
+  max-height: 100vh;
+  font-size: xx-small;
+  
+}.nombre_boton{
+  
+}.span3{
+  flex:0;
+  margin:15px  ;
+}.conoce_equipo{
+  padding:6px;
+  display:flex;
+  margin:5px;
+  
+}.conoce_equipo1{
+  border: solid 2px;
+  border-color:grey;
+  padding:5px;
+  margin-bottom: 1px;
+}.boton_enviar{
+  height: 40px;
+  width: 120px;
+  border-radius:10px;
+  
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.my-4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-8 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.bg-\[\#86efac\] {
+  background-color: #86efac;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.border-gray-500 {
+  border-color: #6b7280;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.gap-8 {
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.max-w-screen-md {
+  max-width: 768px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.border-2 {
+  border-width: 2px;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
